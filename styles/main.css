@@ -1,0 +1,29 @@
+/*main.css */
+
+body {
+	background-color: yellow
+	font-family: 'Indie Flower', cursive;
+}
+
+h1 {
+	color:red;
+}
+
+ol{
+	font-weight: bold;
+}
+
+a {
+	color: black;
+}
+
+ol {
+	color: white;
+}
+#nav{
+	border: 2px solid red;border-radius: 8px;
+	background-color: white;
+}
+a {
+	text-decoration: none;
+}

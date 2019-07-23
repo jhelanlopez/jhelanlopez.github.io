@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>STOPLIGHT!</title>
+	<link rel="stylesheet" type="text/css" href="stoplight-final.css">
+</head>
+<body>
+	<style type="text/css">
+		body {
+	background: linear-gradient(to bottom,#3d0000, white )
+}
+
+#stoplight {
+	width: 8%;
+	border: 10px solid black;
+	margin: auto;
+	background-color: rgba(0,0,0,.6);
+	box-shadow: 6px 6px 6px black;
+	border-radius:10px;
+	background: linear-gradient(to top,#fe0000,#3d0000 )
+}
+
+.circle {
+	width: 75px;
+	height: 75px;
+	border: solid 2px black;
+	margin: 20px auto;
+	border-radius: 50%;
+	background-color: black;
+
+}
+
+#red:hover{
+	background: linear-gradient(to right, #ed213a, #93291e); 
+}
+
+#yellow:hover{
+	background: linear-gradient(to right, #fffc00, #ffffff)
+}
+
+#green:hover{
+	background: linear-gradient(to right, #56ab2f, #a8e063);
+}
+
+#post {
+	width: 1%;
+	height: 150px;
+	background: linear-gradient(to top, white, #fe0000);
+	margin: auto;
+	border-radius: 5px;
+	border: 7px solid black;
+	box-shadow: 6px 6px 6px black;
+}
+
+h1 {
+	text-align: center;
+	text-shadow: 1px 1px 1px grey;
+}
+	</style>
+	<h1> Go...Slow...Stop <h1>
+	<div id="stoplight">
+
+		<div class="circle" id="red" ></div>
+	
+		<div class="circle" id="yellow"></div>
+	
+		<div class="circle" id="green"></div>
+
+	</div> 
+	<div id=post ></div>
+		
+</body>
+</html>

@@ -1,0 +1,66 @@
+<!-- cheat-sheet.html -->
+<!-- html shell:html, head, body -->
+<!DOCTYPE html> <!-- DOCTYPE is to let the browser know that we are using html -->
+<html><!-- start of html document -->
+<head><!-- configuration -->
+	<title>Cheat Sheet</title><!-- title on the browser's tab: goes inside head section -->
+	<link rel="stylesheet" type="text/css" 
+	href="styles/cheat-sheet.css"> <!-- link brings all css styling from my css file into this html file, href attribute has the name and path of the css file -->
+	<!-- style tag is to add internal styles -->
+
+	<style type="text/css">
+		/*margin properties in pixels*/
+			{
+				margin-top: 100px;
+				margin-right: 150px;
+				margin-bottom: 50px;
+				margin-left: 200px;
+				background: rgb(0,255,128);
+				border-style: dashed;
+				border-radius: 10px; /*border-radius is to add curved corners to the div */
+			}
+
+	</style>
+</head><!-- ending of heading section -->
+<body><!-- start of body section: visible section of the page -->
+<!-- hx is for the heading -->
+<h1 class="heading">Heading 1</h1> <!-- h1 tag is using a class style (see css file)-->
+<h2 class="heading">Heading 2</h2>
+<h3 class="heading">Heading 3</h3>
+<h4 class="heading">Heading 4</h4>
+<h5 class="heading">Heading 5</h5>
+<h6 class="heading">Heading 6</h6>
+<!-- paragraphs -->
+<p id="my_paragraph">This is a paragraph. Because I have no imagination i'll keep typing a lot of words to show this is a "paragraph"
+</p>
+<p id="my_paragraph">This is a paragraph. Because I have no imagination i'll keep typing a lot of words to show this is a "paragraph"
+</p>
+<img src="images/waves.jpg" alt="Wavy" height="300" width="300">
+<ul type="disc"><!-- unordered list; type circle, square, or disc -->
+	<li>My candy</li><!-- li(list element) for every element on the list -->
+	<li>Your candy</li>
+	<li>Our candy</li>
+</ul>
+<ol type="1"><!-- ordered list; type 1, A, a, or I -->
+	<li>First class</li>
+	<li>Second class</li>
+	<li>third class</li>
+</ol></a><!-- a is for anchor(hyperlinks) -->
+<a href="https://www.youtube.com/watch?v=318kAdkFcOs"><!-- absolute hyperlink -->
+<br><!-- breaks the text -->
+<a href="cheat-sheet.html">My cheat sheet</a><!-- relative hyperlink -->
+<div><!-- div is used to indicate an area within the web page -->
+	<p>Another paragraph</p>
+	<ol type="A">
+	<li>CS class
+		<ol>
+			<li>HTML</li>
+			<li>CSS</li>
+			<li>JS</li>
+		</ol>
+	</li>
+	<li>Math</li>
+</ol>
+</div>
+</body><!-- ending of body section -->
+</html><!-- end of html document -->

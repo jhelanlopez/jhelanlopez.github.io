@@ -1,0 +1,22 @@
+/*cheat-sheet.css*/
+/* body is the selector to change the 
+style of the body section on an html */
+body {background: red;}/*backround is a
+							property to change
+							the backround color
+							and red is the property
+							value*/
+/*there are 140 color names
+htpps://www.w3schools.com/colors/colors_name.asp*/
+/* heading is a class selector that can be applied
+to several elements on my html page*/
+.heading {color: white;
+text-align: center;}
+/* my_paragraph is an id selector than has styling
+that applies only to one tag on my html. The tag id
+should be the same as this selector */
+#my_paragraph {
+	text-align: center;
+	text-decoration: underline;
+	font-weight: bold;
+}
